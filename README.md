@@ -24,7 +24,7 @@ CONFIG_KPROBE_EVENTS=y
 CONFIG_BPF_EVENTS=y
 ```
 
-详细内容请参考官方仓库的[中文文档]（https://github.com/daeuniverse/dae/tree/main/docs/zh）
+详细内容请参考官方仓库的[中文文档](https://github.com/daeuniverse/dae/tree/main/docs/zh)
 
 ---
 在routing中我另外增加了几行针对steam服务器的规则，其中``domain(geosite:category-games@cn``一行并没有亲测产生什么效果，只是为了以防万一加上的。同时，如果不在意或者不希望steam流量走直连的朋友可以直接把那几行注释掉。

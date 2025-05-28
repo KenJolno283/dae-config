@@ -31,7 +31,7 @@ global {
 	#lan_interface: docker0
 
 	# use if proxy localhost
-	wan_interface: auto
+	#wan_interface: auto
 
 	auto_config_kernel_parameter: true
 
@@ -44,6 +44,7 @@ global {
 }
 
 subscription {
+	my_group: 'YOUR_SUBSCRIPTION_LINK'
 }
 
 node {
